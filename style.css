@@ -1,0 +1,37 @@
+#product-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-item{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: auto;
+}
+
+.product-item img{
+    width: 180px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.product-item p{
+    font-size: 20px;
+    color: #358874;
+    border:2px solid #0DA58A;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.product-item p:hover{
+    color: black;
+    background-color: rgb(107, 221, 107);
+    
+}
+
